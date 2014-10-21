@@ -8,13 +8,10 @@ var monitor = require("../lib/monitor");
 
 program
   .version(pkg.version)
-  .command("*")
   .description("Monitors a LaTeX project for changes")
-  .action(function (file) {
-    file = file || "./document.tex";
-    var dir = path.dirname(file);
-    monitor(dir, file);
-    console.log("Watching", dir, "for changes...");
-  });
+  .parse(process.argv);
 
-program.parse(process.argv);
+var file = path.resolve(program.args[0] || "./document.tex");
+var dir = path.dirname(file);
+monitor(dir, file);
+console.log("Watching", dir, "for changes...");
