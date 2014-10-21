@@ -1,0 +1,24 @@
+{
+  "name": "texwatch",
+  "version": "0.0.1",
+  "description": "Global utility for watching and building LaTeX projects",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:oliverwoodings/texwatch.git"
+  },
+  "author": "Oliver Woodings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oliverwoodings/texwatch/issues"
+  },
+  "homepage": "https://github.com/oliverwoodings/texwatch",
+  "preferGlobal": true,
+  "bin": {
+    "texwatch": "bin/texwatch.js"
+  },
+  "dependencies": {
+    "commander": "^2.4.0",
+    "glob-watcher": "0.0.6",
+    "latex": "0.0.1"
+  }
+}
