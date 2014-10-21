@@ -18,8 +18,8 @@
   },
   "dependencies": {
     "commander": "^2.4.0",
+    "exec": "^0.1.2",
     "glob-watcher": "0.0.6",
-    "latex": "0.0.1",
-    "open": "0.0.5"
+    "when": "^3.5.0"
   }
 }
