@@ -17,9 +17,11 @@
     "texwatch": "bin/texwatch.js"
   },
   "dependencies": {
+    "colors": "^1.0.3",
     "commander": "^2.4.0",
     "exec": "^0.1.2",
     "glob-watcher": "0.0.6",
+    "lodash": "^2.4.1",
     "when": "^3.5.0"
   }
 }

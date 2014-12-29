@@ -14,4 +14,3 @@ program
 var file = path.resolve(program.args[0] || "./document.tex");
 var dir = path.dirname(file);
 monitor(dir, file);
-console.log("Watching", dir, "for changes...");
