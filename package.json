@@ -1,6 +1,6 @@
 {
   "name": "texwatch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Global utility for watching and building LaTeX projects",
   "repository": {
     "type": "git",
